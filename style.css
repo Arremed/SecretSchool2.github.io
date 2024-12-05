@@ -1,0 +1,46 @@
+/* Basic Body Styling */
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Tab Container Styling */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  background-color: #333;
+  color: green;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for tabs */
+.tab:hover {
+  background-color: #444;
+}
+
+/* Tab Content Styling */
+.tab-content {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Display the first tab's content by default */
+#tab1 {
+  display: block;
+}
+
+/* Optional: Add a visual style for the active tab */
+.tab.active {
+  background-color: #444;
+  color: white;
+}
