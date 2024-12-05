@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs Example</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body style="background-color: black; color: white;">
+
+  <!-- Tabs Container -->
+  <div class="tabs">
+    <button class="tab" onclick="openTab('tab1')">Tab 1</button>
+    <button class="tab" onclick="openTab('tab2')">Tab 2</button>
+    <button class="tab" onclick="openTab('tab3')">Tab 3</button>
+    <button class="tab" onclick="openTab('tab4')">Tab 4</button> <!-- New Tab 4 -->
+  </div>
+
+  <!-- Tab Content Sections -->
+  <div id="tab1" class="tab-content">
+    <h1 style="color: green;">Private Document</h1>
+    <p style="color: green;">If you find this document, enter at your own risk of suspension and stuff like that.</p>
+    <h1 style="color: #9B111E;">Created With Risk</h1> <!-- Dark Crimson color using hex code -->
+    <p style="color: green">Why did I make this? I don't really know, I was just bored in class and decided to make it.</p>
+  </div>
+
+  <div id="tab2" class="tab-content">
+    <h1 style="color: green;">Tab 2 Content</h1>
+    <p style="color: green;">Instellar Links.</p>
+    <a href="https://beta.theoceancleanup.info/" target="_blank"> 1. Click Here</a>
+  </div>
+
+  <div id="tab3" class="tab-content">
+    <h1 style="color: green;">Tab 3 Content</h1>
+    <p style="color: green;">Rammer Head Links.</p>
+  </div>
+
+  <div id="tab4" class="tab-content"> <!-- New Tab 4 Content -->
+    <h1 style="color: green;">Tab 4 Content</h1>
+    <p style="color: green;">This is the content for Tab 4.</p>
+    <p style="color: green;">You can add more information here for the new tab!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
